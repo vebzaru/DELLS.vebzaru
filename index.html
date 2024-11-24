@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/background.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="shortcut icon" href="img/logo-dells.ico" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>DELLS</title>
+</head>
+<body>
+  <div class="background">
+    <div class="wrapper">
+      <div class="ellipse">
+        <div id="ellipse1"></div>
+        <div id="ellipse2"></div>
+        <div id="ellipse3"></div>
+      </div>
+    </div>
+  </div>
+  <div id="blur"></div> <!--  Это замутнение для фона-->
+  <div class="container">
+    <div class="divmain">
+      <div class="navbar">
+        <img src="img/logo.png" alt="" class="logo">
+        <ul class="navbar__menu">
+          <a class="navbar__menu-text" href="#">Главная</a>
+          <a class="navbar__menu-text" href="#">Копилки</a>
+          <a class="navbar__menu-text" href="#">О нас</a>
+          <a class="navbar__menu-text" href="#">Начать копить</a>
+          <a class="navbar__menu-text" href="#">Сторис</a>
+          <a class="navbar__menu-text" href="#">Челленджи</a>
+          <a class="navbar__menu-text" href="#">Контакты</a>
+        </ul>
+        <div class="navbar__bar">
+          <button class="navbar__bar-button">
+            <i class='bx bx-search'></i>
+          </button>
+          <button class="navbar__bar-button">
+            <i class='bx bxs-user'></i>
+          </button>
+          <button class="navbar__bar-button">
+            <i class='bx bx-list-ul'></i>
+          </button>
+        </div>
+      </div>
+      <div class="main">
+        <h1 class="main__title">Челленджи</h1>
+        <div class="main__actions">
+          <ul class="main__actions-filter">
+            <label class="checkbox">
+              <input type="checkbox" class="real-checkbox" id="first">
+              <span class="custom-checkbox"></span>
+              &nbsp;&nbsp;Все
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" class="real-checkbox" id="first">
+              <span class="custom-checkbox"></span>
+              &nbsp;&nbsp;Активные
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" class="real-checkbox" id="first">
+              <span class="custom-checkbox"></span>
+              &nbsp;&nbsp;Я участвую
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" class="real-checkbox" id="first">
+              <span class="custom-checkbox"></span>
+              &nbsp;&nbsp;Завершенные
+            </label>
+          </ul>
+          <a class="main__actions-create" href="#">
+            <img src="img/subtract.png" alt="" class="main__actions-create-img">
+            <div class="main__actions-create-text">Создать свой челлендж</div>
+          </a>
+        </div>
+        <div class="main__stories">
+          <div class="main__stories-block" id="a">
+            <div class="main__stories-story-a">
+              <h2 class="story-a-title">Успей или уйди</h2>
+              <div class="story-a-desc">До завершения:<br>3 дня</div>
+              <div class="story-a-vlc">
+                <i class='bx bx-show'></i>5567
+                <i class='bx bx-heart'></i>435
+                <i class='bx bx-comment'></i>378
+              </div>
+            </div>
+          </div>
+          <div class="main__stories-block" id="b">
+            <div class="main__stories-story-a">
+              <h2 class="story-a-title">Собери</h2>
+              <div class="story-a-desc">До завершения:<br>2 дня</div>
+              <div class="story-a-vlc">
+                <i class='bx bx-show'></i>5567
+                <i class='bx bx-heart'></i>435
+                <i class='bx bx-comment'></i>378
+              </div>
+            </div>
+          </div>
+          <div class="main__stories-block" id="c">
+            <div class="main__stories-story-a">
+              <h2 class="story-a-title">Завершен</h2>
+              <div class="story-b-winner">Победитель:</div>
+              <a href="#" class="story-b-user">
+                <img src="img/Ellipse 166.png" alt="">
+                &nbsp;Алина Морозова
+              </a>
+              <a href='#'class="story-b-see">Смотреть</a>
+            </div>
+          </div>
+          <div class="main__stories-block" id="d">
+            <div class="main__stories-story-a">
+            <h2 class="story-a-title">Завершен</h2>
+            <div class="story-b-winner">Победитель:</div>
+            <a href="#" class="story-b-user">
+              <img src="img/Ellipse 166.png" alt="">
+              &nbsp;Алина Морозова
+            </a>
+            <a href='#'class="story-b-see">Смотреть</a>
+          </div></div>
+          <div class="main__stories-block" id="e">
+            <div class="main__stories-story-a">
+            <h2 class="story-a-title">Завершен</h2>
+            <div class="story-b-winner">Победитель:</div>
+            <a href="#" class="story-b-user">
+              <img src="img/Ellipse 166.png" alt="">
+              &nbsp;Алина Морозова
+            </a>
+            <a href='#'class="story-b-see">Смотреть</a>
+          </div></div>
+          <div class="main__stories-block" id="f">
+            <div class="main__stories-story-a">
+            <h2 class="story-a-title">Завершен</h2>
+            <div class="story-b-winner">Победитель:</div>
+            <a href="#" class="story-b-user">
+              <img src="img/Ellipse 166.png" alt="">
+              &nbsp;Алина Морозова
+            </a>
+            <a href='#'class="story-b-see">Смотреть</a>
+          </div></div>
+          <div class="main__stories-block" id="g">
+            <div class="main__stories-story-a">
+            <h2 class="story-a-title">Завершен</h2>
+            <div class="story-b-winner">Победитель:</div>
+            <a href="#" class="story-b-user">
+              <img src="img/Ellipse 166.png" alt="">
+              &nbsp;Алина Морозова
+            </a>
+            <a href='#'class="story-b-see">Смотреть</a>
+          </div></div>
+          <div class="main__stories-block" id="h">
+            <div class="main__stories-story-a">
+            <h2 class="story-a-title">Завершен</h2>
+            <div class="story-b-winner">Победитель:</div>
+            <a href="#" class="story-b-user">
+              <img src="img/Ellipse 166.png" alt="">
+              &nbsp;Алина Морозова
+            </a>
+            <a href='#'class="story-b-see">Смотреть</a>
+          </div></div>
+          <div class="main__stories-block" id="i">
+            <div class="main__stories-story-a">
+            <h2 class="story-a-title">Завершен</h2>
+            <div class="story-b-winner">Победитель:</div>
+            <a href="#" class="story-b-user">
+              <img src="img/Ellipse 166.png" alt="">
+              &nbsp;Алина Морозова
+            </a>
+            <a href='#'class="story-b-see">Смотреть</a>
+          </div></div>
+          <div class="main__stories-block" id="j">
+            <div class="main__stories-story-a">
+            <h2 class="story-a-title">Завершен</h2>
+            <div class="story-b-winner">Победитель:</div>
+            <a href="#" class="story-b-user">
+              <img src="img/Ellipse 166.png" alt="">
+              &nbsp;Алина Морозова
+            </a>
+            <a href='#'class="story-b-see">Смотреть</a>
+          </div></div>
+          <div class="main__stories-block" id="k">
+            <div class="main__stories-story-a">
+            <h2 class="story-a-title">Завершен</h2>
+            <div class="story-b-winner">Победитель:</div>
+            <a href="#" class="story-b-user">
+              <img src="img/Ellipse 166.png" alt="">
+              &nbsp;Алина Морозова
+            </a>
+            <a href='#'class="story-b-see">Смотреть</a>
+          </div></div>
+          <div class="main__stories-block" id="l">
+            <div class="main__stories-story-a">
+            <h2 class="story-a-title">Завершен</h2>
+            <div class="story-b-winner">Победитель:</div>
+            <a href="#" class="story-b-user">
+              <img src="img/Ellipse 166.png" alt="">
+              &nbsp;Алина Морозова
+            </a>
+            <a href='#'class="story-b-see">Смотреть</a>
+          </div></div>
+        </div>
+        <div class="main__pagination">
+          <div class="main__pagination-block">
+            <a href="#" class="main__pagination-a">Назад</a>
+            <a href="#" class="main__pagination-a">1</a>
+            <a href="#" class="main__pagination-a">2</a>
+            <a href="#" class="main__pagination-a">3</a>
+            <a href="#" class="main__pagination-a">4</a>
+            <div class="main__pagination-a">...</div>
+            <a href="#" class="main__pagination-a">Далее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="footer">
+        <div class="footer-block">
+        <div class="footer__main">
+          <img src="img/logo.png" alt="" class="logo">
+          <table class="footer__main-table">
+            <tbody class="footer__main-tb">
+              <tr>
+                <td><a href="#">Главная</a></td>
+                <td><a href="#">Копилки</a></td>
+                <td><a href="#">Челленджи</a></td>
+                <td><a href="#">Правила и оферты</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">О нас</a></td>
+                <td><a href="#">Начать копить</a></td>
+                <td><a href="#">Контакты</a></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="footer__icons">
+            <button class="footer__info-button">
+              <i class='bx bxl-vk'></i>
+            </button>
+            <button class="footer__info-button">
+              <i class='bx bxl-instagram' ></i>
+            </button>
+            <button class="footer__info-button">
+              <i class='bx bxl-facebook' ></i>
+            </button>
+          </div>
+        </div>
+        <div class="footer__info">
+          <div class="footer__info-point">
+            <i class='bx bxs-map'></i>&nbsp;Санкт-Петербург, пр. Ветеранов 166, лит. А
+          </div>
+          <div class="footer__info-point">
+            <i class='bx bxs-phone' ></i>&nbsp;+7 (812) 744-77-12
+          </div>
+          <div class="footer__info-point">
+            <i class='bx bx-envelope'></i>&nbsp;info@kopiberi.ru
+          </div>
+        </div>
+        <div class="footer__text">Страница создана пользователем vebzaru</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
